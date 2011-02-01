@@ -1,0 +1,44 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.5)
+      actionpack (= 2.3.5)
+    actionpack (2.3.5)
+      activesupport (= 2.3.5)
+      rack (~> 1.0.0)
+    activerecord (2.3.5)
+      activesupport (= 2.3.5)
+    activeresource (2.3.5)
+      activesupport (= 2.3.5)
+    activesupport (2.3.5)
+    declarative_authorization (0.5.2)
+    prawn (0.6.3)
+      prawn-core (>= 0.6.3, < 0.7)
+      prawn-format (>= 0.2.3, < 0.3)
+      prawn-layout (>= 0.3.2, < 0.4)
+      prawn-security (>= 0.1.1, < 0.2)
+    prawn-core (0.6.3)
+    prawn-format (0.2.3)
+      prawn-core
+    prawn-layout (0.3.2)
+    prawn-security (0.1.1)
+    rack (1.0.1)
+    rails (2.3.5)
+      actionmailer (= 2.3.5)
+      actionpack (= 2.3.5)
+      activerecord (= 2.3.5)
+      activeresource (= 2.3.5)
+      activesupport (= 2.3.5)
+      rake (>= 0.8.3)
+    rake (0.8.7)
+    searchlogic (2.4.27)
+      activerecord (>= 2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  declarative_authorization
+  prawn (= 0.6.3)
+  rails (= 2.3.5)
+  searchlogic

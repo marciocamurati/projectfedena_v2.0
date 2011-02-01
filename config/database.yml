@@ -1,6 +1,6 @@
 development:
       host: localhost
-      adapter: mysql
+      adapter: mysql2
       database: fedena
       port: 3306
       username: root
@@ -8,7 +8,7 @@ development:
 
 test: &test
       host: localhost
-      adapter: mysql
+      adapter: mysql2
       database: fedena_test
       port: 3306
       username: admin
@@ -16,7 +16,7 @@ test: &test
 
 production:
       host: localhost
-      adapter: mysql
+      adapter: mysql2
       database: fedena
       port: 3306
       username: admin

@@ -1,0 +1,298 @@
+# Logfile created on Mon Jan 31 23:16:39 -0200 2011/!\ FAILSAFE /!\  Mon Jan 31 23:28:25 -0200 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Users/marciocamurati/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+  [4;36;1mSQL (100.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (116.9ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090622100004)
+Migrating to CreateConfigurations (20090622102004)
+Migrating to CreateStudents (20090622104053)
+Migrating to CreateArchivedStudents (20090622104054)
+Migrating to CreateGuardians (20090622114927)
+Migrating to CreateArchivedGuardians (20090622115927)
+Migrating to CreateCountries (20090703074822)
+Migrating to CreateNews (20090706170408)
+Migrating to CreateCoursesAndBatches (20090715234257)
+Migrating to CreateBatchStudentsJoinTable (20090715234258)
+Migrating to CreateSubjects (20090717124241)
+Migrating to CreateElectiveGroups (20090717126241)
+Migrating to CreateGradingLevels (20090718050113)
+Migrating to CreateExamGroups (20090718050453)
+Migrating to CreateExams (20090718050921)
+Migrating to CreateExamScores (20090718052749)
+Migrating to CreateAttendances (20090731092833)
+Migrating to CreateClassTimings (20090818045411)
+Migrating to CreateTimetableEntries (20090818050018)
+Migrating to CreateEmployeeCategories (20090904071048)
+Migrating to CreateEmployeePositions (20090904071548)
+Migrating to CreateEmployeeDepartments (20090904071642)
+Migrating to CreateEmployeeGrades (20090904071905)
+Migrating to BankFields (20090904071906)
+Migrating to EmployeeBankDetails (20090904071907)
+Migrating to CreateAdditionalFields (20090904071908)
+Migrating to CreateEmployeeAdditionalDetails (20090904071909)
+Migrating to CreateEmployees (20090910062751)
+Migrating to CreatePayrollCategories (20090914095002)
+Migrating to CreateEmployeeSalaryStructures (20090914114212)
+Migrating to CreateMonthlyPayslips (20090916052300)
+Migrating to CreateEmployeeLeaveTypes (20090917052349)
+Migrating to CreateEmployeeAttendances (20090917065256)
+Migrating to CreateApplyLeaves (20090924081520)
+Migrating to CreateEmployeesSubjects (20090926071527)
+Migrating to CreateIndividualPayslipCategories (20091009093746)
+Migrating to CreateReminders (20091026065251)
+Migrating to CreateFinanceTransactionCategories (20091202050910)
+Migrating to CreateFinanceTransactions (20091202053600)
+Migrating to CreateFinanceDonations (20091202104818)
+Migrating to CreateFinanceFeeCollections (20091207084711)
+Migrating to CreateFinanceFees (20091207085849)
+Migrating to CreateFinanceFeeStructureElements (20091207090412)
+Migrating to CreatePrivileges (20091217191652)
+Migrating to CreatePrivilegesUsersJoinTable (20091217201118)
+Migrating to CreateFinanceTransactionTriggers (20091224063502)
+Migrating to CreateEvents (20100403073735)
+Migrating to CreateBatchEvents (20100403092229)
+Migrating to CreateEmployeeDepartmentEvents (20100403093355)
+Migrating to CreateStudentAdditionalDetails (20100412105036)
+Migrating to CreateStudentAdditionalFields (20100412105116)
+Migrating to CreateLiabilities (20100422110336)
+Migrating to CreateAssets (20100426094532)
+Migrating to CreatePeriodEntries (20100429093616)
+Migrating to CreateWeekdays (20100505075459)
+Migrating to CreateFinanceFeeCategories (20100515063157)
+Migrating to CreateFinanceFeeParticulars (20100515063814)
+Migrating to CreateSmsSettings (20100520073311)
+Migrating to CreateElectives (20100524093457)
+Migrating to StudentsSubject (20100525055716)
+Migrating to CreateGroupedExams (20100602115152)
+Migrating to CreateArchivedEmployees (20100604103435)
+Migrating to CreateArchivedEmployeeSalaryStructures (20100604103916)
+Migrating to CreateArchivedEmployeeBankDetails (20100604104308)
+Migrating to CreateArchivedEmployeeAdditionalDetails (20100604104759)
+Migrating to CreateStudentPreviousDatas (20100609073016)
+Migrating to CreateStudentPreviousSubjectMarks (20100609074544)
+Migrating to CreateXmls (20100720104231)
+Migrating to CreateArchivedExamScores (20100730092747)
+Migrating to CreateAdditionalExamGroups (20100731053458)
+Migrating to CreateAdditionalExams (20100731054033)
+Migrating to CreateAdditionalExamScores (20100731055437)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (16.7ms)[0m   [0mdescribe `additional_exam_groups`[0m
+  [4;36;1mSQL (7.4ms)[0m   [0;1mSHOW KEYS FROM `additional_exam_groups`[0m
+  [4;35;1mSQL (7.7ms)[0m   [0mdescribe `additional_exam_scores`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `additional_exam_scores`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mdescribe `additional_exams`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `additional_exams`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `additional_fields`[0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mSHOW KEYS FROM `additional_fields`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `apply_leaves`[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSHOW KEYS FROM `apply_leaves`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `archived_employee_additional_details`[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mSHOW KEYS FROM `archived_employee_additional_details`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `archived_employee_bank_details`[0m
+  [4;36;1mSQL (4.4ms)[0m   [0;1mSHOW KEYS FROM `archived_employee_bank_details`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `archived_employee_salary_structures`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `archived_employee_salary_structures`[0m
+  [4;35;1mSQL (22.1ms)[0m   [0mdescribe `archived_employees`[0m
+  [4;36;1mSQL (3.1ms)[0m   [0;1mSHOW KEYS FROM `archived_employees`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `archived_exam_scores`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `archived_exam_scores`[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mdescribe `archived_guardians`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW KEYS FROM `archived_guardians`[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mdescribe `archived_students`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `archived_students`[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mdescribe `assets`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `assets`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `attendances`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `attendances`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `bank_fields`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `bank_fields`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `batch_events`[0m
+  [4;36;1mSQL (17.0ms)[0m   [0;1mSHOW KEYS FROM `batch_events`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `batch_students`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `batch_students`[0m
+  [4;35;1mSQL (12.2ms)[0m   [0mdescribe `batches`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `batches`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `class_timings`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `class_timings`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `configurations`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `configurations`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `countries`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `countries`[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mdescribe `courses`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `courses`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `elective_groups`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `elective_groups`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mdescribe `electives`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `electives`[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mdescribe `employee_additional_details`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employee_additional_details`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `employee_attendances`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW KEYS FROM `employee_attendances`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `employee_bank_details`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `employee_bank_details`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `employee_categories`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW KEYS FROM `employee_categories`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `employee_department_events`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW KEYS FROM `employee_department_events`[0m
+  [4;35;1mSQL (24.2ms)[0m   [0mdescribe `employee_departments`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `employee_departments`[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mdescribe `employee_grades`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `employee_grades`[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mdescribe `employee_leave_types`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `employee_leave_types`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `employee_positions`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `employee_positions`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `employee_salary_structures`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `employee_salary_structures`[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mdescribe `employees`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW KEYS FROM `employees`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `employees_subjects`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW KEYS FROM `employees_subjects`[0m
+  [4;35;1mSQL (11.9ms)[0m   [0mdescribe `events`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW KEYS FROM `events`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mdescribe `exam_groups`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `exam_groups`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `exam_scores`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `exam_scores`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `exams`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `exams`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `finance_donations`[0m
+  [4;36;1mSQL (7.6ms)[0m   [0;1mSHOW KEYS FROM `finance_donations`[0m
+  [4;35;1mSQL (5.4ms)[0m   [0mdescribe `finance_fee_categories`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `finance_fee_categories`[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mdescribe `finance_fee_collections`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `finance_fee_collections`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `finance_fee_particulars`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `finance_fee_particulars`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `finance_fee_structure_elements`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `finance_fee_structure_elements`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `finance_fees`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `finance_fees`[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mdescribe `finance_transaction_categories`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `finance_transaction_categories`[0m
+  [4;35;1mSQL (3.4ms)[0m   [0mdescribe `finance_transaction_triggers`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `finance_transaction_triggers`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mdescribe `finance_transactions`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `finance_transactions`[0m
+  [4;35;1mSQL (10.9ms)[0m   [0mdescribe `grading_levels`[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSHOW KEYS FROM `grading_levels`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `grouped_exams`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `grouped_exams`[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mdescribe `guardians`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `guardians`[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mdescribe `individual_payslip_categories`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW KEYS FROM `individual_payslip_categories`[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mdescribe `liabilities`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `liabilities`[0m
+  [4;35;1mSQL (4.4ms)[0m   [0mdescribe `monthly_payslips`[0m
+  [4;36;1mSQL (3.8ms)[0m   [0;1mSHOW KEYS FROM `monthly_payslips`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `news`[0m
+  [4;36;1mSQL (7.5ms)[0m   [0;1mSHOW KEYS FROM `news`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `news_comments`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW KEYS FROM `news_comments`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `payroll_categories`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `payroll_categories`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `period_entries`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW KEYS FROM `period_entries`[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mdescribe `privileges`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW KEYS FROM `privileges`[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mdescribe `privileges_users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `privileges_users`[0m
+  [4;35;1mSQL (9.5ms)[0m   [0mdescribe `reminders`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `reminders`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `sms_settings`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `sms_settings`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `student_additional_details`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW KEYS FROM `student_additional_details`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `student_additional_fields`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `student_additional_fields`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `student_categories`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW KEYS FROM `student_categories`[0m
+  [4;35;1mSQL (3.5ms)[0m   [0mdescribe `student_previous_datas`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `student_previous_datas`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `student_previous_subject_marks`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW KEYS FROM `student_previous_subject_marks`[0m
+  [4;35;1mSQL (7.6ms)[0m   [0mdescribe `students`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `students`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mdescribe `students_subjects`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `students_subjects`[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mdescribe `subjects`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW KEYS FROM `subjects`[0m
+  [4;35;1mSQL (21.8ms)[0m   [0mdescribe `timetable_entries`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `timetable_entries`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mdescribe `weekdays`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `weekdays`[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mdescribe `xmls`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `xmls`[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2011-01-31 23:42:34) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+  [4;36;1mUser Load (3.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mConfiguration Load (0.6ms)[0m   [0;1mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'LogoName') LIMIT 1[0m
+Rendering template within layouts/login
+Rendering user/login
+Completed in 172ms (View: 45, DB: 4) | 200 OK [http://localhost/]
