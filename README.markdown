@@ -107,6 +107,7 @@ Total 13 (delta 6), reused 0 (delta 0)
 
 To git@heroku.com:xxxxx.git
    a213125..f4f09ab  master -> master
+
 6. heroku rake db:migrate
 $** Invoke db:migrate (first_time)
 ** Invoke environment (first_time)
